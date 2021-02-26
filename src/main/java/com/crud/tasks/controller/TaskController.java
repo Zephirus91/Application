@@ -30,7 +30,7 @@ public class TaskController {
         return new TaskDto(1L, "Edited test title", "test content");
     }
 
-    @PostMapping(value = "updateTask")
+    @PostMapping(value = "createTask")
     public void createTask(TaskDto task) {
 
     }
