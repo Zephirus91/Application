@@ -9,8 +9,6 @@ echo.
 echo There were errors
 goto end
 
-
-
 :start
 start "" http://localhost:8080/crud/v1/task/getTasks
 echo.
