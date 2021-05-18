@@ -22,7 +22,7 @@ dependencies {
 	runtimeOnly 'mysql:mysql-connector-java'
 	//runtimeOnly 'org.postgresql:postgresql'
 
-
+	testImplementation 'com.google.code.gson:gson'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	compileOnly 'org.projectlombok:lombok:1.18.16'
